@@ -15,21 +15,69 @@ div {
 	background-color: lightgrey;
 }
 
+#title {
+	position: relative;
+	height: 200px;
+	width: 90%;
+	margin: auto;
+	top: 75px;
+	background-color: lightgrey;
+}
+
 #slideshow {
 	position: relative;
 	height: 400px;
 	width: 700px;
-	top: 250px;
 	margin: auto;
 	margin-right: 35%;
+	top: 100px;
 	background-color: grey;
+}
+
+#content-container {
+	position: relative;
+	/*height: 900px;*/
+	width: 85%;
+	margin: auto;
+	top: 150px;
+	padding: 50px;
+	background-color: lightgrey;
+}
+
+#personal-info {
+	position: relative;
+	height: 400px;
+	width: 60%;
+	margin: auto;
+	background-color: grey;
+}
+
+#projects {
+	position: relative;
+	/*height: 300px;*/
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: grey;
+}
+
+.project {
+	position: relative;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin-left: 50px;
+	background-color: black;
 }
 
 #bottom-bar {
 	position: relative;
 	height: 100px;
 	width: 100%;
-	margin-top: 10px;
+	margin: auto;
+	top: 200px;
 	background-color: lightgrey;
 }
 
