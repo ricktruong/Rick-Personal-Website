@@ -24,6 +24,10 @@ div {
 	background-color: lightgrey;
 }
 
+#title h5 {
+	
+}
+
 #slideshow {
 	position: relative;
 	height: 400px;
